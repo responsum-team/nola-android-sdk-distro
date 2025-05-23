@@ -42,8 +42,8 @@ In your module's `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation("com.github.res-chat:reschat-sdk-distro:1.0.4@aar")
-    implementation("com.github.res-chat:reschat-sdk-distro:1.0.4")
+    implementation("com.github.responsum-team:nola-android-sdk-distro:1.0.6@aar")
+    implementation("com.github.responsum-team:nola-android-sdk-distro:1.0.6")
 }
 ```
 
