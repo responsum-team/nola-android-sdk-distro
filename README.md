@@ -2,7 +2,7 @@
 
 SDK for embedding the Responsum ChatBot in your Android apps.
 
-> **Latest version:** 1.0.4
+> **Latest version:** 1.0.6
 
 ---
 
