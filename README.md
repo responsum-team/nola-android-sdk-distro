@@ -17,7 +17,7 @@ SDK for embedding the Responsum ChatBot in your Android apps.
 
 ## Requirements
 
-- Android SDK 29+
+- Android SDK 28+
 
 ---
 
