@@ -216,9 +216,7 @@ ResChat.startChat(
 
 ## Changelog
 
-### v1.0.4
-- Added `cleanOldHistory` and `speechToTextLanguage` options  
-- Introduced `metadata` support for skipping language/airport screens  
+### v1.0.8
 - Bug fixes and improvements
 
 ---
