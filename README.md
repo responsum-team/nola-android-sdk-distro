@@ -42,8 +42,8 @@ In your module's `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation("com.github.responsum-team:nola-android-sdk-distro:1.0.6@aar")
-    implementation("com.github.responsum-team:nola-android-sdk-distro:1.0.6")
+    implementation("com.github.responsum-team:nola-android-sdk-distro:1.0.8@aar")
+    implementation("com.github.responsum-team:nola-android-sdk-distro:1.0.8")
 }
 ```
 
