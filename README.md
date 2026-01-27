@@ -158,8 +158,8 @@ val metadata = mapOf(
 |-------------------------|----------|-----------------------------------------------------------|------------------|
 | `cleanOldHistory`       | Boolean  | Clears chat history on new session                        | `false`          |
 | `speechToTextLanguage`  | String   | Language for speech-to-text (e.g. `"hr-HR"`)              | `en-US`          |
-| `dateTimeFormat`        | String   | Format pattern used to display message timestamps         | `M/d/yyyy, h:mm` |
-                                       (e.g. "M/d/yyyy, h:mm")
+| `dateTimeFormat`        | String   | Format pattern used to display message timestamps (e.g. "M/d/yyyy, h:mm")        | `M/d/yyyy, h:mm` |
+
 
 ---
 
