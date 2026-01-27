@@ -223,7 +223,7 @@ ResChat.startChat(
 - Bug fixes and improvements
 
 ### v1.1.1
-- Added time and date formatter configuration
+- Added time and date format configuration
 
 ---
 
