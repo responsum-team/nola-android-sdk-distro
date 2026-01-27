@@ -2,7 +2,7 @@
 
 SDK for embedding the Responsum ChatBot in your Android apps.
 
-> **Latest version:** 1.0.6
+> **Latest version:** 1.1.1
 
 ---
 
@@ -42,8 +42,8 @@ In your module's `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation("com.github.responsum-team:nola-android-sdk-distro:1.0.8@aar")
-    implementation("com.github.responsum-team:nola-android-sdk-distro:1.0.8")
+    implementation("com.github.responsum-team:nola-android-sdk-distro:1.1.1@aar")
+    implementation("com.github.responsum-team:nola-android-sdk-distro:1.1.1")
 }
 ```
 
@@ -154,10 +154,12 @@ val metadata = mapOf(
 
 ### Other Options
 
-| Parameter               | Type     | Description                                               | Default |
-|-------------------------|----------|-----------------------------------------------------------|---------|
-| `cleanOldHistory`       | Boolean  | Clears chat history on new session                        | `false` |
-| `speechToTextLanguage`  | String   | Language for speech-to-text (e.g. `"hr-HR"`)              | `en-US` |
+| Parameter               | Type     | Description                                               | Default          |
+|-------------------------|----------|-----------------------------------------------------------|------------------|
+| `cleanOldHistory`       | Boolean  | Clears chat history on new session                        | `false`          |
+| `speechToTextLanguage`  | String   | Language for speech-to-text (e.g. `"hr-HR"`)              | `en-US`          |
+| `dateTimeFormat`        | String   | Format pattern used to display message timestamps         | `M/d/yyyy, h:mm` |
+                                       (e.g. "M/d/yyyy, h:mm")
 
 ---
 
@@ -178,6 +180,7 @@ ResChat.startChat(
     ),
     cleanOldHistory = true,
     speechToTextLanguage = "hr-HR",
+    dateTimeFormat = "hh:mm - dd.MM.YYYY.",
     colorCustomization = ColorCustomization(
         chatBotAvatarBackgroundColor = Color.Black,
         userAvatarBackgroundColor = Color.Gray,
@@ -218,6 +221,9 @@ ResChat.startChat(
 
 ### v1.0.8
 - Bug fixes and improvements
+
+### v1.1.1
+- Added time and date formatter configuration
 
 ---
 
