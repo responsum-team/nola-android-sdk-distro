@@ -2,7 +2,7 @@
 
 SDK for embedding the Responsum ChatBot in your Android apps.
 
-> **Latest version:** 1.1.1
+> **Latest version:** 1.1.2
 
 ---
 
@@ -159,6 +159,8 @@ val metadata = mapOf(
 | `cleanOldHistory`       | Boolean  | Clears chat history on new session                        | `false`          |
 | `speechToTextLanguage`  | String   | Language for speech-to-text (e.g. `"hr-HR"`)              | `en-US`          |
 | `dateTimeFormat`        | String   | Format pattern used to display message timestamps (e.g. "M/d/yyyy, h:mm")        | `M/d/yyyy, h:mm` |
+| `timeZoneId`        | String   | ZoneId id used for message date and time zone (e.g. "Europe/Zagreb")        | Device zone |
+| `timeZone`        | ZoneId   | ZoneId used for message date and time zone (e.g. "Europe/Zagreb")        | Device zone |
 
 
 ---
@@ -181,6 +183,7 @@ ResChat.startChat(
     cleanOldHistory = true,
     speechToTextLanguage = "hr-HR",
     dateTimeFormat = "hh:mm - dd.MM.YYYY.",
+    timeZoneId = "Europe/Zagreb",
     colorCustomization = ColorCustomization(
         chatBotAvatarBackgroundColor = Color.Black,
         userAvatarBackgroundColor = Color.Gray,
@@ -224,6 +227,9 @@ ResChat.startChat(
 
 ### v1.1.1
 - Added time and date format configuration
+
+### v1.1.2
+- Added ability to change time zone
 
 ---
 
