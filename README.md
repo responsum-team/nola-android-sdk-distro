@@ -160,7 +160,7 @@ val metadata = mapOf(
 | `speechToTextLanguage`  | String   | Language for speech-to-text (e.g. `"hr-HR"`)              | `en-US`          |
 | `dateTimeFormat`        | String   | Format pattern used to display message timestamps (e.g. "M/d/yyyy, h:mm")        | `M/d/yyyy, h:mm` |
 | `timeZoneId`        | String   | ZoneId id used for message date and time zone (e.g. "Europe/Zagreb")        | Device zone |
-| `timeZone`        | ZoneId   | ZoneId used for message date and time zone (e.g. "Europe/Zagreb")        | Device zone |
+| `timeZone`        | ZoneId   | ZoneId used for message date and time zone (e.g. "Europe/Zagreb"). It can only be used it "timeZoneId" is not already used. | Device zone |
 
 
 ---
